@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#invslot {
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  border: 1px solid #aaaaaa;
+}
+</style>
+<script>
+function droppable(event) {
+  event.preventDefault();
+}
+function drag(event) {
+  event.dataTransfer.setData("text", event.target.id);
+}
+function drop(event) {
+  event.preventDefault();
+  var data = event.dataTransfer.getData("text");
+  event.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+<div id="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<img id="drag1" src="assets/default_tree.png" draggable="true" ondragstart="drag(event)" width="16" height="16">
+</body>
+</html>
