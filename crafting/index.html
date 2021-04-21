@@ -2,12 +2,19 @@
 <html>
 <head>
 <style>
-div {
+.invslot {
   width: 16px;
   height: 16px;
   padding: 1px;
   border: 1px solid #aaaaaa;
   float: left;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 </style>
 <script>
@@ -25,45 +32,47 @@ function drop(event) {
 </script>
 </head>
 <body>
-<div id="inv1" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv2" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv3" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv4" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv5" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv6" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv7" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv8" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv9" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv" class="centered">
+<div id="inv1" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv2" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv3" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv4" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv5" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv6" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv7" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv8" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv9" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <br>
-<div id="inv11" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv12" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv13" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv14" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv15" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv16" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv17" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv18" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv19" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv11" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv12" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv13" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv14" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv15" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv16" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv17" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv18" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv19" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <br>
-<div id="inv21" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv22" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv23" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv24" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv25" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv26" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv27" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv28" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="inv29" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv21" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv22" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv23" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv24" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv25" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv26" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv27" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv28" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="inv29" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <br><br>
-<div id="hb1" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="hb2" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="hb3" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="hb4" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="hb5" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="hb6" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="hb7" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="hb8" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="hb9" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="hb1" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="hb2" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="hb3" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="hb4" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="hb5" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="hb6" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="hb7" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="hb8" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<div id="hb9" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+</div>
 <img id="drag1" src="assets/default_tree.png" draggable="true" ondragstart="drag(event)" width="16" height="16">
 <script src="inv.js"></script>
 </body>
