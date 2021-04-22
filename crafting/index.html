@@ -25,19 +25,7 @@
   padding: 0px;
 }
 </style>
-<script>
-function droppable(event) {
-  event.preventDefault();
-}
-function drag(event) {
-  event.dataTransfer.setData("text", event.target.id);
-}
-function drop(event) {
-  event.preventDefault();
-  var data = event.dataTransfer.getData("text");
-  event.target.appendChild(document.getElementById(data));
-}
-</script>
+<script src="js/dnd.js"></script>
 </head>
 <body>
 <div class="centered">
@@ -88,6 +76,6 @@ function drop(event) {
 </div>
 </div>
 <img id="drag1" src="assets/default_tree.png" draggable="true" ondragstart="drag(event)" width="16" height="16">
-<script src="inv.js"></script>
+<script src="js/inv.js"></script>
 </body>
 </html>
