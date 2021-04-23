@@ -1,6 +1,9 @@
 <html>
 <head>
 <style>
+.body {
+  background-color: #cccccc;
+}
 .invslot {
   width: 16px;
   height: 16px;
@@ -32,11 +35,7 @@
   margin-top: -50px;
   margin-left: -100px;
 }
-#inv {
-  border: 1px solid #000000;
-  padding: 0px;
-}
-#hb {
+.inv {
   border: 1px solid #000000;
   padding: 0px;
 }
@@ -45,6 +44,7 @@
 </head>
 <body>
 <div class="centered">
+<div idv"armor" class="inv">
 <div id="armor1" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <div class="black"></div>
 <div class="black"></div>
@@ -54,24 +54,20 @@
 <div class="black"></div>
 <div class="black"></div>
 <div class="black"></div>
-<div class="whitespace"></div>
-<div id="craft1" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="craft2" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <br>
 <div id="armor3" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <div class="black"></div>
 <div class="black"></div>
 <div class="black"></div>
-<div class="whitespace"></div>
-<div id="craft3" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="craft4" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <br>
 <div id="armor4" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <div class="black"></div>
 <div class="black"></div>
 <div class="black"></div>
-<br><br>
-<div id="inv">
+<br>
+</div>
+<br>
+<div id="inv" class="inv">
 <div id="inv1" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <div id="inv2" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <div id="inv3" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
@@ -104,7 +100,7 @@
 <br>
 </div>
 <br>
-<div id="hb">
+<div id="hb" class="inv">
 <div id="hb1" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <div id="hb2" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <div id="hb3" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
