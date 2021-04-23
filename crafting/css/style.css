@@ -1,0 +1,25 @@
+.black {
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  border: 1px solid #000000;
+  background-color: #000000;
+  float: left;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+.inv {
+  border: 1px solid #000000;
+  padding: 0px;
+}
+#armor {
+  border: 1px solid #000000;
+  padding: 0px;
+  height: 80px;
+  width: 80px;
+}
