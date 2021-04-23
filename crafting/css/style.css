@@ -1,3 +1,22 @@
+.body {
+  background-color: #cccccc;
+}
+.invslot {
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  border: 1px solid #eeeeee;
+  background-color: #aaaaaa;
+  float: left;
+}
+.whitespace {
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  border: 1px solid #ffffff;
+   background-color: #ffffff;
+   float: left;
+ }
 .black {
   width: 16px;
   height: 16px;
