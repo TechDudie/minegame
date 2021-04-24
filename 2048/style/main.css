@@ -329,9 +329,9 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: url('../images/default_tree.png');
+    background: url('../images/default_tree.png'); }
   .tile.tile-4 .tile-inner {
-    background: url('../images/default_cobble.png');
+    background: url('../images/default_cobble.png'); }
   .tile.tile-8 .tile-inner {
     background: url('../images/mcl_core_coal_ore.png'); }
   .tile.tile-16 .tile-inner {
@@ -341,19 +341,19 @@ hr {
   .tile.tile-64 .tile-inner {
     background: url('../images/default_steel_block.png'); }
   .tile.tile-128 .tile-inner {
-    background: url('../images/mcl_core_gold_ore.png');
+    background: url('../images/mcl_core_gold_ore.png'); }
   .tile.tile-256 .tile-inner {
-    background: url('../images/default_gold_block.png');
+    background: url('../images/default_gold_block.png'); }
   .tile.tile-512 .tile-inner {
-    background: url('../images/mcl_core_diamond_ore.png');
+    background: url('../images/mcl_core_diamond_ore.png'); }
   .tile.tile-1024 .tile-inner {
-    background: url('../images/default_diamond_block.png');
+    background: url('../images/default_diamond_block.png'); }
   .tile.tile-2048 .tile-inner {
-    background: url('../images/default_obsidian.png');
+    background: url('../images/default_obsidian.png'); }
   .tile.tile-super .tile-inner {
     color: #ffffff;
     background: #ffffff;
-
+}
 @-webkit-keyframes appear {
   0% {
     opacity: 0;
