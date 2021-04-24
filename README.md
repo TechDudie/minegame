@@ -9,3 +9,4 @@ Go to https://techdudie.github.io/minegame to play!
 * https://techdudie.github.io/minegame/smelt
 
 commit 1e1480c24d05786cc57093ca1eceabe973565e55: the commit that ruined the world
+https://github.com/TechDudie/minegame/commit/1e1480c24d05786cc57093ca1eceabe973565e55
