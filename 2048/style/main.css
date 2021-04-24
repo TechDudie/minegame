@@ -329,70 +329,30 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: url('../images/default_dirt.png');
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile-4 .tile-inner {
     background: url('../images/default_tree.png');
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  .tile.tile-4 .tile-inner {
+    background: url('../images/default_cobble.png');
   .tile.tile-8 .tile-inner {
-    color: #ffffff;
-    background: url('../images/crafting_workbench_top.png'); }
+    background: url('../images/mcl_core_coal_ore.png'); }
   .tile.tile-16 .tile-inner {
-    color: #ffffff;
-    background: url('../images/default_cobble.png'); }
+    background: url('../images/default_coal_block.png'); }
   .tile.tile-32 .tile-inner {
-    color: #ffffff;
-    background: url('../images/default_furnace_front.png'); }
+    background: url('../images/mcl_core_iron_ore.png'); }
   .tile.tile-64 .tile-inner {
-    color: #ffffff;
-    background: url('../images/default_chest_front.png'); }
+    background: url('../images/default_steel_block.png'); }
   .tile.tile-128 .tile-inner {
-    color: #ffffff;
-    background: url('../images/default_coal_block.png');
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+    background: url('../images/mcl_core_gold_ore.png');
   .tile.tile-256 .tile-inner {
-    color: #ffffff;
-    background: url('../images/default_steel_block.png');
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
-  .tile.tile-512 .tile-inner {
-    color: #ffffff;
     background: url('../images/default_gold_block.png');
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
+  .tile.tile-512 .tile-inner {
+    background: url('../images/mcl_core_diamond_ore.png');
   .tile.tile-1024 .tile-inner {
-    color: #ffffff;
     background: url('../images/default_diamond_block.png');
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    color: #ffffff;
     background: url('../images/default_obsidian.png');
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #ffffff;
     background: #ffffff;
-    font-size: 30px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-super .tile-inner {
-        font-size: 10px; } }
 
 @-webkit-keyframes appear {
   0% {
