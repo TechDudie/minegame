@@ -3,15 +3,15 @@
 }
 
 :root {
-    --main:rgb(253, 253, 253);
-    --accent:rgb(92, 92, 92);
-    --border:rgb(201, 201, 201);
+    --main: rgb(253, 253, 253);
+    --accent: rgb(92, 92, 92);
+    --border: rgb(201, 201, 201);
 }
 
 body {
     background: var(--main);
     color: var(--accent);
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@ body {
     place-items: center;
 }
 .child {
-    width:80%;
+    width: 80%;
     border: 0.5px solid var(--border);
     height: 400px;
     border-radius: 20px;
@@ -32,29 +32,28 @@ body {
 .catg {
     width: 80%;
     border: 1px solid var(--border);
-    /* padding: 20px 30px; */
     border-radius: 5px;
 }
 .play {
     float: right;
     background-color: rgb(16, 148, 255);
+    font-family: Minecraftia;
     color: white;
     padding: 3px 10px;
     margin: 6px 7px;
-    border:2px solid transparent ;
+    border: 2px solid transparent ;
     border-radius: 4px;
 }
 .play:hover {
-    background-color:rgb(6, 128, 221);
+    background-color: rgb(6, 128, 221);
 }
 .tagname {
     float: left;
     padding: 10px;
     font-family: Minecraftia;
-    color: black;
 }
 i {
     float: left;
     font-size: 13px;
-    padding:none ;
+    padding: none ;
 }
