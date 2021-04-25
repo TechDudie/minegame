@@ -38,7 +38,7 @@ body {
 .play {
     float: right;
     background-color: rgb(16, 148, 255);
-    color:white;
+    color: white;
     padding: 3px 10px;
     margin: 6px 7px;
     border:2px solid transparent ;
@@ -50,6 +50,8 @@ body {
 .tagname {
     float: left;
     padding: 10px;
+    font-family: Minecraftia;
+    color: black;
 }
 i {
     float: left;
