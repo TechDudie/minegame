@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Crafting</title>
+<title>Smelting</title>
 <style>
 .body {
   background-color: #cccccc;
@@ -15,15 +15,7 @@
 }
 .whitespace {
   width: 20px;
-  height: 16px;
-  padding: 1px;
-  border: 1px solid #ffffff;
-  background-color: #ffffff;
-  float: left;
-}
-.white {
-  width: 16px;
-  height: 16px;
+  height: 20px;
   padding: 1px;
   border: 1px solid #ffffff;
   background-color: #ffffff;
@@ -40,14 +32,10 @@
   border: 1px solid #000000;
   padding: 0px;
 }
-#craftarrow {
+#smelt-arrow {
   float: left;
 }
-#crafting {
-  height: 60px;
-  width: 60px;
-}
-#craft-result {
+#smelt {
   height: 20px;
   width: 20px;
   float: left;
@@ -58,29 +46,22 @@
 </head>
 <body>
 <div class="centered">
-<p class="text">Crafting</p>
-<div id="crafting" class="inv">
-<div id="craft1" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="craft2" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="craft3" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<br>
-<div id="craft4" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="craft5" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="craft6" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<br>
-<div id="craft7" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="craft8" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
-<div id="craft9" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
+<p class="text">Smelting</p>
+<div id="smelt" class="inv">
+<div id="smelt-item" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <br>
 </div>
 <div class="whitespace"></div>
-<h1 id="craftarrow" class="text">&#x2193;</h1>
-<br><br><br>
-<div class="white"></div>
-<div id="craft-result" class="inv">
-<div id="craft" class="invslot"></div>
+<h1 id="smelt-arrow" class="text">&#x2192;</h1>
+<div id="smelt" class="inv">
+<div id="smelt-result" class="invslot"></div>
 </div>
-<br><br><br>
+<br>
+<div id="smelt" class="inv">
+<div id="smelt-fuel" class="invslot"></div>
+<br>
+</div>
+<br>
 <div id="inv" class="inv">
 <div id="inv1" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
 <div id="inv2" class="invslot" ondrop="drop(event)" ondragover="droppable(event)"></div>
