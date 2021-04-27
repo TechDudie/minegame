@@ -8,4 +8,4 @@ function get(id) {
 }
 for (i = 1; i < 28; i++) { 
   //document.getElementById("inv".concat(toString(i))).appendChild(null);
-}b
+}
