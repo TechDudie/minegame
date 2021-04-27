@@ -230,7 +230,12 @@
       if (handled)
         ev.preventDefault(); // prevent arrow keys from scrolling the page (supported in IE9+ and all other browsers)
     }
-
+    function left()  { actions.push(DIR.LEFT); }
+    function right() { actions.push(DIR.RIGHT); }
+    function up()    { actions.push(DIR.UP); }
+    function down()  { actions.push(DIR.DOWN); }
+    function space() { play(); }
+    function esc()   { lose(); }
     //-------------------------------------------------------------------------
     // GAME LOGIC
     //-------------------------------------------------------------------------
