@@ -4,8 +4,9 @@
   <title>Tetris</title>
   <style>
     body      { font-family: Helvetica, sans-serif; }
+    button    { touch-action: manipulation; }
     #tetris   { margin: 1em auto; padding: 1em; border: 4px solid black; border-radius: 10px; background-color: #F8F8F8; }
-    #stats    { display: inline-block; vertical-align: top; }
+    #stats    { display: inline-block; vertical-align: top; } /* fix doubletap zoom annoyance */
     #canvas   { display: inline-block; vertical-align: top; background: url(texture.jpg); box-shadow: 10px 10px 10px #999; border: 2px solid #333; }
     #menu     { display: inline-block; vertical-align: top; position: relative; }
     #menu p   { margin: 0.5em 0; text-align: center; }
@@ -38,10 +39,10 @@
     </canvas>
     <button onclick="left()">Left</button>
     <button onclick="right()">Right</button>
-    <button onclick="up()">Up</button>
+    <button onclick="up()">Rotate</button>
     <button onclick="down()">Down</button>
-    <button onclick="space()">SPACE</button>
-    <button onclick="esc()">ESC</button>
+    <button onclick="space()">Play</button>
+    <button onclick="esc()">Stop</button>
   </div>
 
   <script src="stats.js"></script>
