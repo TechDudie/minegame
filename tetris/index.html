@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Javascript Tetris</title>
+  <title>Tetris</title>
   <style>
     body      { font-family: Helvetica, sans-serif; }
     #tetris   { margin: 1em auto; padding: 1em; border: 4px solid black; border-radius: 10px; background-color: #F8F8F8; }
@@ -36,6 +36,12 @@
     <canvas id="canvas">
       Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element
     </canvas>
+    <button onclick="left()">Left</button>
+    <button onclick="right()">Right</button>
+    <button onclick="up()">Up</button>
+    <button onclick="down()">Down</button>
+    <button onclick="space()">SPACE</button>
+    <button onclick="esc()">ESC</button>
   </div>
 
   <script src="stats.js"></script>
@@ -230,12 +236,15 @@
       if (handled)
         ev.preventDefault(); // prevent arrow keys from scrolling the page (supported in IE9+ and all other browsers)
     }
+    
+    // mobile support
     function left()  { actions.push(DIR.LEFT); }
     function right() { actions.push(DIR.RIGHT); }
     function up()    { actions.push(DIR.UP); }
     function down()  { actions.push(DIR.DOWN); }
     function space() { play(); }
     function esc()   { lose(); }
+    
     //-------------------------------------------------------------------------
     // GAME LOGIC
     //-------------------------------------------------------------------------
