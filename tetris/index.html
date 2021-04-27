@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Simple Tetris - Simplest example</title>
+  <title>Tetris</title>
   <style>
     #game-root {
       height: 480px;
@@ -23,30 +23,24 @@
 </head>
 <body onLoad="run()">
   <div id="game-root"></div>
-
   <button onClick="handleEvent(SimpleTetris.KEY_CODE_LEFT);">left</button>
   <button onClick="handleEvent(SimpleTetris.KEY_CODE_RIGHT);">right</button>
   <button onClick="handleEvent(SimpleTetris.KEY_CODE_HARD_DROP);">down</button>
   <button onClick="handleEvent(SimpleTetris.KEY_CODE_ROTATE);">rotate</button>
-
   <script>
     var store;
-
     function handleEvent(keyCode) {
       SimpleTetris.gameLoopIteration(store, 0.0, keyCode);
       render();
     }
-
     function render() {
       var matrixBlocksToRender = SimpleTetris.matrixBlocksToRenderSelector(store.getState());
       var html = '';
-
       for (var i = 0; i < matrixBlocksToRender.length; i++) {
         html += matrixBlocksToRender[i] ? '<div class="filled"></div>' : '<div></div>';
       }
       document.getElementById('game-root').innerHTML = html;
     }
-
     function run() {
       store = new SimpleTetris.createStore();
       render();
