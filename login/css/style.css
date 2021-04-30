@@ -1,4 +1,7 @@
-body { background-color: black; }
+body {
+  background-color: black;
+  border-radius: 0px;
+}
 .centered {
   position: fixed;
   top: 50%;
