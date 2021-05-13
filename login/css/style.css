@@ -7,7 +7,7 @@ body {
   border: 1px solid #000000;
   border-radius: 0px;
   font-family: Ubuntu Mono;
-  height: 1000;
-  width: 1000;
-  font-size: 32px;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
 }
