@@ -1,5 +1,7 @@
 body {
   background-color: black;
+  overflow: hidden;
+  position: fixed;
 }
 .terminal {
   color: #ffffff;
