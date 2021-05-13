@@ -329,27 +329,27 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: url('../images/default_tree.png'); }
+    background: url('../images/default_tree.png'); image-rendering: pixelated; }
   .tile.tile-4 .tile-inner {
-    background: url('../images/default_cobble.png'); }
+    background: url('../images/default_cobble.png'); image-rendering: pixelated; }
   .tile.tile-8 .tile-inner {
-    background: url('../images/mcl_core_coal_ore.png'); }
+    background: url('../images/mcl_core_coal_ore.png'); image-rendering: pixelated; }
   .tile.tile-16 .tile-inner {
-    background: url('../images/default_coal_block.png'); }
+    background: url('../images/default_coal_block.png'); image-rendering: pixelated; }
   .tile.tile-32 .tile-inner {
-    background: url('../images/mcl_core_iron_ore.png'); }
+    background: url('../images/mcl_core_iron_ore.png'); image-rendering: pixelated; }
   .tile.tile-64 .tile-inner {
-    background: url('../images/default_steel_block.png'); }
+    background: url('../images/default_steel_block.png'); image-rendering: pixelated; }
   .tile.tile-128 .tile-inner {
-    background: url('../images/mcl_core_gold_ore.png'); }
+    background: url('../images/mcl_core_gold_ore.png'); image-rendering: pixelated; }
   .tile.tile-256 .tile-inner {
-    background: url('../images/default_gold_block.png'); }
+    background: url('../images/default_gold_block.png'); image-rendering: pixelated; }
   .tile.tile-512 .tile-inner {
-    background: url('../images/mcl_core_diamond_ore.png'); }
+    background: url('../images/mcl_core_diamond_ore.png'); image-rendering: pixelated; }
   .tile.tile-1024 .tile-inner {
-    background: url('../images/default_diamond_block.png'); }
+    background: url('../images/default_diamond_block.png'); image-rendering: pixelated; }
   .tile.tile-2048 .tile-inner {
-    background: url('../images/default_obsidian.png'); }
+    background: url('../images/default_obsidian.png'); image-rendering: pixelated; }
   .tile.tile-super .tile-inner {
     color: #ffffff;
     background: #ffffff;
