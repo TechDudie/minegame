@@ -1,1 +1,9 @@
-body { background-color: black; }
+body {
+  background-color: black;
+}
+input {
+  color: #ffffff;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: #ffffff;
+}
