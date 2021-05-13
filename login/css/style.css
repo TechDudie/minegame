@@ -2,9 +2,9 @@ body {
   background-color: black;
 }
 input {
-  color: #ffffff;
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: #ffffff;
+  color: #000000;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 0px;
   font-family: Ubuntu Mono;
 }
