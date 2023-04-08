@@ -27,28 +27,6 @@ h1.title {
     float: left;
 }
 
-@-webkit-keyframes move-up {
-    0% {
-        top: 25px;
-        opacity: 1;
-    }
-
-    100% {
-        top: -50px;
-        opacity: 0;
-    }
-}
-@-moz-keyframes move-up {
-    0% {
-        top: 25px;
-        opacity: 1;
-    }
-
-    100% {
-        top: -50px;
-        opacity: 0;
-    }
-}
 @keyframes move-up {
     0% {
         top: 25px;
@@ -143,24 +121,6 @@ hr {
     margin: 0 auto;
 }
 
-@-webkit-keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-@-moz-keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
 @keyframes fade-in {
     0% {
         opacity: 0;
@@ -183,8 +143,6 @@ hr {
     border-radius: 6px;
     width: 500px;
     height: 500px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 .game-container .game-message {
@@ -328,8 +286,6 @@ hr {
 
 .tile {
     position: absolute;
-    -webkit-transition: 100ms ease-in-out;
-    -moz-transition: 100ms ease-in-out;
     transition: 100ms ease-in-out;
     transition-property: transform;
 }
@@ -379,28 +335,6 @@ hr {
     color: #ffffff;
     background: #ffffff;
 }
-@-webkit-keyframes appear {
-    0% {
-        opacity: 0;
-        transform: scale(0);
-    }
-
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-@-moz-keyframes appear {
-    0% {
-        opacity: 0;
-        transform: scale(0);
-    }
-
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
 @keyframes appear {
     0% {
         opacity: 0;
@@ -417,32 +351,6 @@ hr {
     animation-fill-mode: backwards;
 }
 
-@-webkit-keyframes pop {
-    0% {
-        transform: scale(0);
-    }
-
-    50% {
-        transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-@-moz-keyframes pop {
-    0% {
-        transform: scale(0);
-    }
-
-    50% {
-        transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
 @keyframes pop {
     0% {
         transform: scale(0);
@@ -551,8 +459,6 @@ hr {
         border-radius: 6px;
         width: 280px;
         height: 280px;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
     .game-container .game-message {
