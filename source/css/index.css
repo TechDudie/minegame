@@ -35,6 +35,7 @@ body {
     border-radius: 5px;
 }
 .play {
+    text-decoration: none;
     float: right;
     background-color: rgb(16, 148, 255);
     font-family: Minecraftia;
