@@ -1,44 +1,58 @@
-.body {
-  background-color: #cccccc;
+body {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .invslot {
-  width: 16px;
-  height: 16px;
-  padding: 1px;
-  border: 1px solid #eeeeee;
-  background-color: #aaaaaa;
-  float: left;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  background-color: #aaa;
 }
-.whitespace {
-  width: 16px;
-  height: 16px;
-  padding: 1px;
-  border: 1px solid #ffffff;
-   background-color: #ffffff;
-   float: left;
- }
+
 .black {
-  width: 16px;
-  height: 16px;
-  padding: 1px;
-  border: 1px solid #000000;
-  background-color: #000000;
-  float: left;
+  background-color: black;
 }
 .centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
+
+.top {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
 .inv {
-  border: 1px solid #000000;
-  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  border: 1px solid black;
 }
+
 #armor {
-  border: 1px solid #000000;
-  padding: 0px;
-  height: 80px;
-  width: 80px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.center-craft {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#crafting {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+#craft-result {
+  display: inline;
 }
